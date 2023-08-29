@@ -7,10 +7,7 @@ const list =ref(["bread","eggs","meat"])
 </script>
 
 <template>
-  <h1 >{{ message }}</h1>
-  <div>
-    <div>
-      <button @click="show = !show">Hide</button>
+   
       <button @click="list.push('air')">Expand</button>
       <button @click="list.pop()">Reduce</button>
    </div>
